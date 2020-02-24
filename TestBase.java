@@ -23,6 +23,7 @@ public class TestBase implements Locators {
 		CommonMethods.selection(driver, destination	,"Mumbai");
 		CommonMethods.DatePicker(driver, calender, "2020", "May", "20","2020","June","15");
 		CommonMethods.pass(driver, "2", "2", "2");
+		CommonMethods.pass(driver, "2", "2", "2");
 		CommonMethods.currency(driver, currencies, currencOption, "USD");
 		CommonMethods.onclick(driver, submit);
 		driver.close();
