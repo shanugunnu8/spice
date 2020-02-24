@@ -15,4 +15,5 @@ public interface Locators {
 	String currencOption ="//select[@id='ctl00_mainContent_DropDownListCurrency']//option";
 	String submit ="//input[@id='ctl00_mainContent_btn_FindFlights']";
 	String roundTrip ="//input[@id='ctl00_mainContent_rbtnl_Trip_1']";
+	String roundTrip1 ="//input[@id='ctl00_mainContent_rbtnl_Trip_1']";
 }
