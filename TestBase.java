@@ -18,6 +18,7 @@ public class TestBase implements Locators {
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("https://www.spicejet.com/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		Thread.sleep(1000);
 		CommonMethods.onclick(driver, roundTrip);
 		CommonMethods.selection(driver, source,"Pune");
 		CommonMethods.selection(driver, destination	,"Mumbai");
